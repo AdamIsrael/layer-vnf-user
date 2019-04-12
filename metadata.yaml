@@ -1,0 +1,11 @@
+name: vnf-user
+summary: <Fill in summary here>
+maintainer: Adam Israel <Adam.Israel@maidalchini>
+description: |
+  <Multi-line description here>
+tags:
+  - misc
+series:
+  - xenial
+  - bionic
+subordinate: false
