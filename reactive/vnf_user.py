@@ -18,6 +18,7 @@ import random
 @when_not('vnf-user.installed')
 def install_vnf_user():
     set_flag('vnf-a.installed')
+    status_set('active', 'Ready!')
 
 
 @when('actions.add-user')
