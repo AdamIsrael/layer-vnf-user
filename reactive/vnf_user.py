@@ -15,6 +15,7 @@ from charms.reactive import (
 import random
 
 
+@when('sshproxy.configured')
 @when_not('vnf-user.installed')
 def install_vnf_user():
     set_flag('vnf-a.installed')
