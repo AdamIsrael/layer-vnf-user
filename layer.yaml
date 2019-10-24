@@ -1,5 +1,7 @@
 includes:
     - 'layer:basic'
+    - 'layer:vnfproxy'
+    - 'layer:sshproxy'
 options:
   basic:
     use_venv: false
